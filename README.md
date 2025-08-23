@@ -1,0 +1,2 @@
+# Dual_Model_Deep_Learning_for_Multi_Label_Retinal_Disease_Classification-
+This repository presents a deep learning pipeline for diagnosing retinal diseases from fundus photographs, addressing the challenge of multi-label classification and severe class imbalance. While many studies simplify the task into binary or multi-class setups, our approach embraces the complexity of real-world multi-label scenarios
