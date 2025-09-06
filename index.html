@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+
+  <div class="max-w-sm w-full bg-white rounded-xl shadow-lg p-6">
+    <!-- Icon -->
+    <div class="flex justify-between items-start">
+      <div class="flex items-center">
+        <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 text-red-600" viewBox="0 0 24 24">
+            <path d="M12 2a7 7 0 00-7 7v4H4a1 1 0 000 2h16a1 1 0 000-2h-1V9a7 7 0 00-7-7z"/>
+            <path d="M8 17h8a4 4 0 11-8 0z"/>
+          </svg>
+        </div>
+      </div>
+      <button class="text-gray-400 hover:text-red-500">
+        ❤️
+      </button>
+    </div>
+
+    <!-- Text -->
+    <h2 class="mt-4 text-xl font-bold">National Emergency Number</h2>
+    <p class="text-gray-500 text-sm">National Emergency</p>
+    <p class="mt-2 text-lg font-semibold">999</p>
+    <p class="text-gray-500 text-sm">All</p>
+
+    <!-- Buttons -->
+    <div class="mt-6 flex space-x-3">
+      <button class="flex-1 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200">
+        Copy
+      </button>
+      <button class="flex-1 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">
+        Call
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
